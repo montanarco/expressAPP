@@ -1,0 +1,33 @@
+{
+  "name": "expressapp",
+  "version": "1.0.0",
+  "description": "this is a general node js app to make concepts clear",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/montanarco/expressAPP.git"
+  },
+  "keywords": [
+    "express",
+    "node",
+    "js"
+  ],
+  "author": "Miguel Montañez",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/montanarco/expressAPP/issues"
+  },
+  "homepage": "https://github.com/montanarco/expressAPP#readme",
+  "devDependencies": {
+    "nodemon": "^3.1.7"
+  },
+  "dependencies": {
+    "dotenv": "^16.4.5",
+    "minimist": "^1.2.8",
+    "progress": "^2.0.3"
+  }
+}
